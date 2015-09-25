@@ -11,7 +11,7 @@ unset GIT_REMOTE_URL
 
 usage() {
   cat << USAGE_END
-  Usage: install_epages.sh options
+  Usage: $0 options
 
 Utility script for merging a branch to another branch, pushing the
 result to a remote and doing checks along the way.
