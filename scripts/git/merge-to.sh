@@ -42,7 +42,7 @@ USAGE_END
 ### Flow ###
 
 # Command-line arguments.
-while getopts "i: e: t: r: h ?" option ; do
+while getopts "c: e: t: r: h ?" option ; do
   case $option in
     c ) GIT_COMMIT_ID="${OPTARG}"
         ;;
